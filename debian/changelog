@@ -1,3 +1,9 @@
+cups-ksmb (0.2) stable; urgency=low
+
+  * Fixed copyright, licensing and packaging stuff.
+
+ -- Vitor Choi Feitosa <vchoi@vchoi.org>  Thu, 25 Aug 2011 18:38:50 -0300
+
 cups-ksmb (0.1) unstable; urgency=low
 
   * Initial Release.
