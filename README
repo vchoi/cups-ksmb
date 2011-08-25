@@ -1,0 +1,22 @@
+cups-ksmb: Allows samba kerberized printing on Ubuntu.
+Author: Sam Mousa
+License: Creative Commons Attribution-ShareAlike 3.0 Unported License
+
+Created by Sam Mousa - July 2009
+Based on code by A. Martins-Melo.
+2010/03/03: Updated by Andre Dill
+2011/08/23: Updated by Vitor Choi <vchoi@vchoi.org> to work on Ubuntu 11.04
+ . Cups 1.4 won't run setuid backends, so this code was changed to use
+   sudo.
+ . Changed backend description to a shorter string that fits better
+   in cups gui.
+
+Source code and binaries available on github:
+   https://github.com/vchoi/cups-ksmb
+
+Usage:
+ . Install
+ . Check that you have kerberos ticket with klist
+ . To add printer ABC on server SRV, use this URI:
+      ksmb://SRV/ABC
+

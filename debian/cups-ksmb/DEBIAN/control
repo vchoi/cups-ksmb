@@ -1,0 +1,11 @@
+Package: cups-ksmb
+Version: 0.1
+Architecture: all
+Maintainer: Vitor Choi Feitosa <vchoi@vchoi.org>
+Installed-Size: 68
+Depends: smbclient, cups
+Section: net
+Priority: extra
+Homepage: https://github.com/vchoi/cups-ksmb
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
